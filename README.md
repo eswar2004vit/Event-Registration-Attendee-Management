@@ -1,97 +1,44 @@
 # Event-Registration-Attendee-Management
 Event Registration &amp; Attendee Management is a Salesforce-based solution designed to simplify event organization for institutions and businesses. This project enables organizers to create and manage event listings, register attendees, automate confirmation/reminder emails, and track attendance and engagement through dashboards and reports.
 
-📌 Problem Understanding & Industry Analysis
+# Event Management System
 
-Many organizations struggle to manage event registrations efficiently, resulting in:
+## Problem Understanding & Industry Analysis
+The core problem is that many organizations struggle to manage event registrations efficiently, leading to lost data, poor communication, and low attendee engagement. Most educational institutions, clubs, and businesses require a centralized system to handle registrations, automate notifications, and improve attendee experience.
 
-Lost or incomplete data
+## Requirement Gathering
+Events must be created, scheduled, updated, and cancelled.
 
-Poor communication with attendees
+Attendees need to register for events with personal details (name, email, contact, etc.).
 
-Low engagement and attendance
+Organizers require automation for confirmation and reminders.
 
-A centralized system is needed to:
+Attendance tracking and reports are necessary for insights.
 
-Handle registrations seamlessly
+Simple user interface for both admin and participants.
 
-Automate notifications
+## Stakeholder Analysis
+Event Organizers: Manage events, track registrations, analyze reports.
 
-Improve the attendee experience
+Attendees/Participants: Register for events, receive notifications, view schedules.
 
-Industries Benefiting:
+Admins: Oversee processes, manage users, troubleshoot issues.
 
-Educational Institutions → workshops, seminars, student participation
+## Business Process Mapping
+Event creation → Registration opens → Attendee registers → Confirmation sent → Reminders sent → Event occurs → Attendance recorded → Feedback/metrics tracked.
 
-IT Companies → employee training, hackathons, client events
+Possible exceptions: Event rescheduling/cancellation, attendee unregistration.
 
-Professional Associations → conferences, meetings, networking events
+## Industry-Specific Use Case Analysis
+Educational Institutions: Manage workshops, seminars, student participation.
 
-✅ Requirements Gathering
+IT Companies: Employee training, hackathons, client events.
 
-Events must be created, scheduled, updated, and cancelled
+Professional Associations: Conferences, meetings, networking events.
 
-Attendees register with personal details (name, email, contact, etc.)
+## AppExchange Exploration
+Review AppExchange apps for event management (Cvent, Blackthorn, etc.).
 
-Automation for confirmations and reminders
+Analyze what features they offer: registration forms, automation, reporting, scalability.
 
-Attendance tracking and reports for insights
-
-Simple UI for both admins and participants
-
-👥 Stakeholder Analysis
-
-Event Organizers → Manage events, track registrations, analyze reports
-
-Attendees/Participants → Register for events, receive notifications, view schedules
-
-Admins → Oversee processes, manage users, troubleshoot issues
-
-🔄 Business Process Mapping
-
-Event creation
-
-Registration opens
-
-Attendee registers
-
-Confirmation sent
-
-Reminders sent
-
-Event occurs
-
-Attendance recorded
-
-Feedback & metrics tracked
-
-Possible Exceptions:
-
-Event rescheduling or cancellation
-
-Attendee unregistration
-
-💡 Industry-Specific Use Cases
-
-Educational Institutions → Manage academic events & participation records
-
-IT Companies → Conduct training programs, hackathons, client engagement sessions
-
-Professional Associations → Organize large-scale conferences, networking events
-
-🛠️ AppExchange Exploration
-
-Reviewed Salesforce AppExchange event management apps (e.g., Cvent, Blackthorn).
-
-Common Features Found:
-
-Registration forms
-
-Workflow automation
-
-Reporting & analytics
-
-Scalability for large events
-
-Takeaway:
-Adopt best practices and design Salesforce-native enhancements for optimized event management.
+Use insights for best practices and Salesforce-native enhancements.
